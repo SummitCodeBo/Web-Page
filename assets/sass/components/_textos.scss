@@ -1,0 +1,91 @@
+.__titulo {
+    font-family: $font-lato;
+    font-size: 1.3em;
+    color: $negro-1;
+    display: flex;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    @include media(xxs) {
+        font-size: 1.4em;
+        width: 90%;
+    }
+    @include media(xs) {
+        width: 70%;
+    }
+    @include media(sm) {
+        width: 60%;
+        font-size: 1.8em;
+    }
+    @include media(lg) {
+        font-size: 2em;
+        width: 50%;
+    }
+}
+
+.__titulo::before,
+.__titulo::after {
+    content: "";
+    flex: auto;
+    height: .05em;
+    background-color: $negro-1;
+    display: block;
+}
+
+.__titulo::before {
+    margin-right: .5em;
+    /*background: linear-gradient(to left, yellow, red);*/
+}
+
+.__titulo::after {
+    margin-left: .5em;
+    /*background: linear-gradient(to right, yellow, red);*/
+}
+
+.__subtitulo {
+    font-family: $font-lato;
+    font-size: .9em;
+    color: $negro-1;
+    text-align: center;
+    display: block;
+    @include media(xxs) {
+        font-size: 1em;
+    }
+    @include media(xs) {
+        font-size: 1.2em;
+    }
+    @include media(lg) {
+        font-size: 1.3em;
+    }
+}
+
+.__parrafo {
+    display: block;
+    text-align: center;
+    font-family: $font-roboto;
+    font-size: .75em;
+    color: $negro-1;
+    @include media(xxs) {
+        font-size: .8em;
+    }
+    @include media(xs) {
+        font-size: .9em;
+    }
+}
+
+.__titulo--blanco {
+    font-family: $font-lato;
+    font-size: 2em;
+    color: $blanco-1;
+}
+
+.__subtitulo--blanco {
+    font-family: $font-lato;
+    font-size: 1.2em;
+    color: $blanco-1;
+}
+
+;

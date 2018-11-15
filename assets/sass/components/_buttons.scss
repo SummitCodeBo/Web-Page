@@ -1,0 +1,22 @@
+.btn--white {
+    text-decoration: none;
+    background: $transparent;
+    color: $blanco-1;
+    display: inline-block;
+    padding: .5em 2em;
+    border-radius: 1.5em;
+    margin-top: 1em;
+    border: .1em solid $blanco-1;
+    font-family: $font-roboto;
+}
+
+.btn--white:hover {
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.4);
+    color: $blanco-1;
+    display: inline-block;
+    padding: .5em 2em;
+    border-radius: 1.5em;
+    margin-top: 1em;
+    border: .1rem solid $blanco-1;
+}
