@@ -9,16 +9,19 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 1rem 0;
     @include media(xxs) {
         font-size: 1.4em;
         width: 90%;
     }
     @include media(xs) {
+        padding: 1.5rem 0;
         width: 70%;
     }
     @include media(sm) {
         width: 60%;
         font-size: 1.8em;
+        padding: 3rem 0;
     }
     @include media(lg) {
         font-size: 2em;

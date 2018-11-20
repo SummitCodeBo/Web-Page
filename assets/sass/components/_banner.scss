@@ -1,0 +1,36 @@
+.header {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../img/portada2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    color: #FAFAFA;
+    right: 0%;
+    top: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sesgo-abajo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-width: 15vh 0 0 100vw;
+    border-style: solid;
+    border-color: transparent transparent transparent #fff;
+}
+
+.intro__logo {
+    width: 120%;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.header__wrap {
+    width: 100%;
+}

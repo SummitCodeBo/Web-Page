@@ -1,0 +1,34 @@
+.about-us {
+    width: 80%;
+    margin: 0 auto;
+    @include media(sm) {
+        width: 100%;
+    }
+}
+
+.about-us__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: .5rem;
+    @include media(sm) {
+        flex-direction: row;
+        padding: 0;
+    }
+}
+
+.about-us__image {
+    @include media(sm) {
+        width: 50%;
+    }
+}
+
+.about-us__parrafo {
+    @include media(sm) {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 4rem;
+    }
+}
